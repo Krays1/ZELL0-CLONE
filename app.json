@@ -1,0 +1,14 @@
+{
+  "name": "zello-clone-chat-server",
+  "description": "WebSocket chat server for ZELL0-CLONE app",
+  "repository": "https://github.com/yourusername/zello-clone-chat-server",
+  "keywords": ["websocket", "chat", "android", "zello"],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+} 

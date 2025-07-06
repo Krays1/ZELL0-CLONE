@@ -1,0 +1,19 @@
+{
+  "name": "zello-clone-chat-server",
+  "version": "1.0.0",
+  "description": "WebSocket chat server for ZELL0-CLONE app",
+  "main": "simple-chat-server.js",
+  "scripts": {
+    "start": "node simple-chat-server.js",
+    "dev": "nodemon simple-chat-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["websocket", "chat", "android", "zello"],
+  "author": "KRAYS1",
+  "license": "MIT"
+} 
